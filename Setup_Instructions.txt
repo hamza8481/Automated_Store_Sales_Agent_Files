@@ -1,0 +1,12 @@
+Setup and Deployment Instructions
+
+1. Import the Workflow: Upload Automated_Store_Sales_Agent.json to your n8n instance.
+2. Connect Credentials:
+   a. OpenAI (for agent and extraction logic).
+   b. WooCommerce (API Keys).
+   c. Qdrant (URL and API Key).
+   d. Google Drive (OAuth2).
+   e. Telegram (Bot Token).
+3. Sub-Workflows: If using the CRM or Payment link tools, build those corresponding workflows and update the Workflow IDs in the tool nodes.
+4. Initial Setup: Configure your Google Drive Folder ID. Run the manual "Knowledge Base Update" flow once to populate your Qdrant database.
+5. Launch: Use the Webhook URL provided in the Chat Trigger node to connect to your frontend chat interface.

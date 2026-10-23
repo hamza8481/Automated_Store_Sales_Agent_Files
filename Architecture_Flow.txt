@@ -1,0 +1,18 @@
+KNOWLEDGE BASE SYNC
+[Execute Workflow] --> [Wipe DB] --> [G-Drive Download] --> [Token Splitter] --> [Insert to Qdrant]
+
+LIVE SALES CHAT
+[Chat Input]
+      |
+      v
+[Intent Extractor LLM] --> (Output: {"product": true, "keyword": "shoes"})
+      |
+      v
+[AI Sales Agent]
+      |--> (If FAQ)      --> [Qdrant RAG Tool]
+      |--> (If Product)  --> [WooCommerce API Tool]
+      |--> (If Help)     --> [Telegram Tool]
+      |--> (If Buy)      --> [Stripe Payment Sub-workflow]
+      |
+      v
+[Final Response to User]

@@ -1,0 +1,19 @@
+{
+  "extractor_output": {
+    "intents": {
+      "product": true,
+      "faq": true,
+      "payment": false,
+      "lead": false
+    },
+    "fields": {
+      "keyword": "waterproof running jacket",
+      "sku": "",
+      "min_price": "",
+      "max_price": "100",
+      "name": "",
+      "email": ""
+    }
+  },
+  "agent_response": "I would be happy to help you with that! \n\nProducts Found:\n1. Aero-Tech Waterproof Running Jacket | $89.99 | In stock | [Link] | SKU: RUN-JKT-01\n2. Trailblazer Light Rain Shell | $75.00 | In stock | [Link] | SKU: RUN-SHL-04\n\nReturn Policy:\nAccording to our store policy, you can return any unworn jackets within 30 days of purchase for a full refund. \n\nNext Actions:\n1. View more options\n2. Get payment link for one of the items above\n3. Talk to a human agent"
+}
